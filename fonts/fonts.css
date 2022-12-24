@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'icon';
+  src:
+    url('icons/icon.ttf?dki85') format('truetype'),
+    url('icons/icon.woff?dki85') format('woff'),
+    url('icons/icon.svg?dki85#icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#chevron-down {
+  content: "\e901";
+  position: relative;
+  top: 4px;
+}
+.icon-quote:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-folder:before {
+  content: "\e903";
+}
+.icon-instagram:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-like_grey:before {
+  content: "\e905";
+}
+.icon-like_red:before {
+  content: "\e906";
+  color: #fd3b41;
+}
+.icon-twitter:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-search:before {
+  content: "\e908";
+}
