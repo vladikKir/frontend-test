@@ -225,6 +225,8 @@ input {
     border-radius: 15px;
 
     margin-top: 12px;
+
+    transition-duration: 0.5s;
 }
 .tools-item-content {
     width: 326px;
